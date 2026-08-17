@@ -19,7 +19,9 @@
 // Crie 2 variáveis com números e mostre no console
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
-
+let um = (5);
+let dois = (5);
+console.log(um+dois)
 
 
 
