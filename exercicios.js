@@ -30,7 +30,11 @@ console.log(um+dois)
 // Converta para Fahrenheit e mostre no console.
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
+let celsius = 30; 
 
+let fahrenheit = (celsius * 9 / 5) + 32;
+
+console.log(celsius + "°C equivale a " + fahrenheit + "°F.");
 
 
 
