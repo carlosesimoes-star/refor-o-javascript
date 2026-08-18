@@ -62,10 +62,8 @@ else {
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
-let um = 10;
-let dois = 7;
-let tres = 0;
-let resu = (um+dois+tres) /3;
+let um = [10+7+10];
+let resu = (um) /3;
 console.log("média final: " + resu);
 
 if (resu >= 7){
@@ -107,10 +105,24 @@ if (idade >= 18){
 //   25 até 29.9    = "Sobrepeso"
 //   30 ou mais     = "Obesidade"
 // ------------------------------------------------------------
+let peso = 70;
+let altura = 1.75;
+let imc = peso / (altura*altura);
+console.log("seu imc é: " + imc.toFixed(2));
 
-
-
-
+if (imc < 18.5){
+    console.log("baixo do peso");
+}
+else if (imc <= 24.9){
+    console.log("peso normal");
+}
+else if (imc <= 25){
+    console.log("sobrepeso");
+}
+else if (imc <= 30){
+    console.log("obsidade");
+}
+    
 // EXERCÍCIO 7 - Pedra, papel e tesoura
 // Crie uma variável com sua jogada ("pedra", "papel" ou "tesoura").
 // Faça o computador escolher aleatoriamente uma jogada.
