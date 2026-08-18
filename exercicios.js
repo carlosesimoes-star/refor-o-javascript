@@ -44,7 +44,15 @@ console.log(celsius + "°C equivale a " + fahrenheit + "°F.");
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
 // ------------------------------------------------------------
+let numero = (3);
 
+if (numero %2 === 0){
+    console.log(numero + "é par");
+}
+
+else {
+    console.log("é ímpar");
+}
 
 
 
