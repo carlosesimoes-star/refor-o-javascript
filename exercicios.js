@@ -19,9 +19,9 @@
 // Crie 2 variáveis com números e mostre no console
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
-let um = (5);
-let dois = (5);
-console.log(um+dois)
+ let umm = (5);
+ let doiss = (5);
+ console.log(umm+doiss)
 
 
 
@@ -44,15 +44,15 @@ console.log(celsius + "°C equivale a " + fahrenheit + "°F.");
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
 // ------------------------------------------------------------
-let numero = (3);
+ let numero = 3;
 
 if (numero %2 === 0){
     console.log(numero + "é par");
-}
+ }
 
 else {
     console.log("é ímpar");
-}
+ }
 
 
 
@@ -62,7 +62,19 @@ else {
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
+let um = 10;
+let dois = 7;
+let tres = 0;
+let resu = (um+dois+tres) /3;
+console.log("média final: " + resu);
 
+if (resu >= 7){
+    console.log("aprovado");
+}
+
+else{
+    console.log("reprovado");
+}
 
 
 
