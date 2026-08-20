@@ -131,6 +131,30 @@ else if (imc <= 30){
 //   let computador = opcoes[Math.floor(Math.random() * 3)]
 // Compare as jogadas e mostre quem ganhou.
 // ------------------------------------------------------------
+// 1. Crie uma variável com sua jogada
+let minhaJogada = "pedra"; // Você pode alterar para "papel" ou "tesoura"
+
+// 2. Faça o computador escolher aleatoriamente (usando a dica da imagem)
+let opcoes = ['pedra', 'papel', 'tesoura'];
+let jogadaComputador = opcoes[Math.floor(Math.random() * 3)];
+
+// Mostra as jogadas no console para sabermos o que aconteceu
+console.log(`Você escolheu: ${minhaJogada}`);
+console.log(`O computador escolheu: ${jogadaComputador}`);
+console.log("-------------------------");
+
+// 3. Compare as jogadas e mostre quem ganhou
+if (minhaJogada === jogadaComputador) {
+    console.log("Resultado: Deu Empate!");
+} else if (
+    (minhaJogada === "pedra" && jogadaComputador === "tesoura") ||
+    (minhaJogada === "papel" && jogadaComputador === "pedra") ||
+    (minhaJogada === "tesoura" && jogadaComputador === "papel")
+) {
+    console.log("Resultado: Você ganhou! 🎉😎");
+} else {
+    console.log("Resultado: O computador ganhou! 😒");
+}
 
 
 
@@ -145,9 +169,28 @@ else if (imc <= 30){
 //   2, 1, 0  = "F"
 // ------------------------------------------------------------
 
+let notaAluno = 8
+let nota = ["a", "b", "c", "d", "f"]
 
+if (notaAluno >= 9){
+    console.log(nota[0])
+} 
 
+else if (notaAluno >=7){
+    console.log(nota[1])
+}
 
+else if (notaAluno >=5){
+    console.log(nota[2])
+}
+
+else if (notaAluno>=3){
+    console.log(nota[3])
+}
+
+else{
+    console.log(nota[4])
+}
 // ============================================================
 //  BLOCO 3 - LOOPS (for, while)
 // ============================================================
