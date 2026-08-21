@@ -139,8 +139,8 @@ let opcoes = ['pedra', 'papel', 'tesoura'];
 let jogadaComputador = opcoes[Math.floor(Math.random() * 3)];
 
 // Mostra as jogadas no console para sabermos o que aconteceu
-console.log(`Você escolheu: ${minhaJogada}`);
-console.log(`O computador escolheu: ${jogadaComputador}`);
+console.log(`Você: ${minhaJogada}`);
+console.log(`computador: ${jogadaComputador}`);
 console.log("-------------------------");
 
 // 3. Compare as jogadas e mostre quem ganhou
@@ -205,6 +205,12 @@ else{
 //   ... até "5 x 10 = 50"
 // ------------------------------------------------------------
 
+let nume = 5
+let contador = 1;
+while (contador <= 10){
+    console.log(`${nume} x ${contador} =${nume * contador}`);
+    contador++;
+}
 
 
 
